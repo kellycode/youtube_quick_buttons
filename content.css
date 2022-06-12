@@ -1,0 +1,25 @@
+.myBtnsContainer {
+    width:40px;
+    height:20px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.myNotIntDiv, .myDontRecDiv{
+    color:white;
+    background-color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align:center;
+    width:50%;
+    height:100%;
+    line-height: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.quickMarked {
+    width: 100%;
+    position: relative;
+}
