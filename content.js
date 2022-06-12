@@ -2,8 +2,8 @@
 
 let clickRemoveItem = function (event) {
     // returns an item number from the popup list
-    // 5 is Not Interested
-    // 6 is Don't recommend channel
+    // 4 is Not Interested
+    // 5 is Don't recommend channel
     let listItemToRemove = event.data;
 
     // get the element clicked
@@ -87,8 +87,8 @@ let getItems = function () {
 
         // add the event listeners
         // event, item number, method
-        mnid.on("click", 5, clickRemoveItem);
-        mdrd.on("click", 6, clickRemoveItem);
+        mnid.on("click", 4, clickRemoveItem);
+        mdrd.on("click", 5, clickRemoveItem);
     });
 };
 
