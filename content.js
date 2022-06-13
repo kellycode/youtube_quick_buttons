@@ -54,7 +54,9 @@ let getItems = function () {
     // of inconsistants, however, here we look for it first by tag and
     // dev tools searching.  Use as a tag seems consistant; it's just the text blocks
     // below the videos
-    let blocks = $("ytd-video-meta-block");
+    // #primary is the welcome page large container, the sidebar vid container,
+    // when watching a vid is #secondary, and we don't want to tag those vids
+    let blocks = $("#primary ytd-video-meta-block");
 
     // this contains the channel name (first one) again they're using the
     //same class for a variety of reason (because they're hacks)
