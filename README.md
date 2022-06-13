@@ -11,7 +11,7 @@ wanky so there ya go.
 
 The menu button (3 dots) that supplies the options is the last thing to be rendered to the YT page
 and can lag showing up.  My buttons use it and by finding and clicking the menu open and then finding and
-clicking the appropriate item. So, mine won't work until theirs is renedered. 
+clicking the appropriate item. So, mine don't work until theirs is rendered.  May eventually make them sync 
 
 Heavily commented
 
